@@ -38,6 +38,7 @@ a {
 	align-self: stretch;
 	align-items: center;
 	flex-wrap: nowrap;
+	margin-top: 5px;
 }
 
 .Header-item--full {
@@ -58,6 +59,7 @@ a {
 	position: relative !important;
 	align-self: auto !important;
 	flex: auto !important;
+	margin-right: 20px;
 }
 
 .octicon {
@@ -80,6 +82,36 @@ a {
 }
 
 .header-search-wrapper {
+	display: flex;
 	color: #fff;
-	border: 1px solid #2f363d;
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	vertical-align: middle;
+	background-color: #0d1118;
+	border: 1px solid #30373e;
+	box-shadow: none;
+}
+
+.header-search-key-slash {
+	margin: 8px;
+}
+
+.middle-nav {
+	display: flex;
+	align-self: auto;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.nav-links {
+	margin-top: -16px;
+	margin-bottom: -16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-weight: 600;
+	color: #f3f9ff;
+	white-space: nowrap;
 }
